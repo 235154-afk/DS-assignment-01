@@ -1,0 +1,15 @@
+# raw data files
+data/raw/
+*.csv
+
+# notebook checkpoints
+.ipynb_checkpoints/
+
+# secret files
+.env
+
+# log file
+tealmoth.log
+
+# python cache
+__pycache__/

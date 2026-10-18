@@ -30,3 +30,7 @@ print(dfOrbit)
 dfOrbit = dfOrbit.sort_values("Marks", ascending=False)
 print("\n===== (iv) Sorted by Marks (descending) =====")
 print(dfOrbit)
+
+# Cleaning step: remove extra spaces from names
+dfOrbit["Name"] = dfOrbit["Name"].str.strip()
+print(dfOrbit)
